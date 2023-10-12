@@ -42,7 +42,16 @@ button {
   text-transform: capitalize;
   color: #2e2f42;
 }
-.email,
+address {
+  font-style: normal;
+}
+
+.email {
+  font-style: normal;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: #434455;
+}
 .tel {
   font-style: normal;
   line-height: 1.5;
@@ -84,8 +93,7 @@ button {
 
 /*h3*/
 .features-list-name,
-.team-item-name,
-.portfolio-item-name {
+.team-item-name {
   font-size: 20px;
   font-weight: 500;
   line-height: 1.2;
@@ -127,6 +135,9 @@ button {
   font-size: 16px;
   letter-spacing: 0.02em;
   color: #434455;
+}
+.portfolio-item-name {
+  line-height: 1.5;
 }
 /*footer section*/
 
