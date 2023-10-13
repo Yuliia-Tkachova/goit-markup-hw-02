@@ -39,7 +39,9 @@ button {
   text-transform: capitalize;
   color: #2e2f42;
 }
-
+.contact {
+  font-style: normal;
+}
  .contact-link {
   font-size: 16px;
   font-style: normal;
